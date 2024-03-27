@@ -1,0 +1,247 @@
+.hero {
+    height: 70vh;
+    background-image: url('../img/Rectangle\ 14.svg');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.menu-clr {
+    background-color: #fff;
+    width: 35%;
+    height: 40px;
+
+}
+
+.nav-clr {
+    background-color: #C1DEE8;
+
+
+}
+
+.hero .box-frst {
+    width: 40%;
+    height: 70vh;
+}
+
+.hero .box-two {
+    height: 63vh;
+    top: 50px;
+
+}
+
+.hero .box-two>img {
+    right: -71px;
+
+}
+
+
+.services .h-frst {
+    display: flex;
+    justify-content: center;
+}
+
+.services .p-frst {
+    display: flex;
+    justify-content: center;
+
+}
+
+.services .card-img-1 {
+    width: 100px;
+    height: 100px;
+
+}
+.card-1{
+    height: 300px;
+    background-image: url(../img/house-1.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+
+.card-2{
+    height: 300px;
+    background-image: url(../img/house-2.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.card-3{
+    height: 300px;
+    background-image: url(../img/house-3.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.services .card-img-2 {
+    width: 100px;
+    height: 100px;
+}
+
+.services .card-img-3 {
+    width: 100px;
+    height: 100px;
+}
+
+.section-thrd .houses{
+    height: 300px;
+    border-radius: 20px;
+    
+    
+}
+
+
+
+.card-body>i{
+    color: rgb(246, 200, 93);
+}
+
+.section-four .booklet-img{
+    height: 500px;
+   background-image: url(../img/_129278423_paygap.png);
+    border-radius: 30px;
+    
+}
+
+.the-transfer button{
+
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    border-color: black;
+
+}
+
+.section-four .numbers{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+ 
+    
+}
+
+.section-four .text{
+    width: 500px;
+    height: 150px;
+ 
+}
+
+.section-four  .numbers .number-1{
+    width: 100px;
+    height: 50px;
+  
+}
+
+.section-four  .numbers .number-2{
+    width: 100px;
+    height: 50px;
+   
+}
+
+.section-four  .numbers .number-3{
+    width: 100px;
+    height: 50px;
+
+}
+
+.section-four .p-2-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+
+}
+
+.input-button>button{
+    right: 30px;
+}
+
+.hero-end {
+    height: 70vh;
+    background-image: url('../img/hero-end.svg');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.hero-end .box-thrd {
+    width: 40%;
+    height: 50vh;
+}
+
+.hero-end .box-four {
+    height: 63vh;
+    left:120px;
+
+}
+
+
+
+@media (max-width:1400px) {
+
+
+    .hero .box-two >img{
+        display: none;
+    }
+    
+    .houses-1{
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .hero-end .last-house{
+      width: auto;
+      height: auto;
+    }
+
+    .menu-clr{
+        width: 35%;
+    }
+    
+
+}
+
+@media (max-width:1000px) {
+    
+    .menu-clr{
+        display: none;
+    }
+    
+}
+
+
+@media (max-width:1300px){
+    .booklet-img{
+        flex-direction: column;
+
+    }
+}
+
+
+
+@media (max-width:800px){
+   .hero-end .last-house{
+    display: none;
+   }
+}
+
+@media (max-width:700px) {
+
+    .hero-end .container{
+        width: 100%;
+        height: 400px;
+    }
+
+    html{
+        font-size: 12px;
+    }
+    
+}
