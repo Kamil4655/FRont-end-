@@ -7,269 +7,319 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="/project1/style.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
 </head>
 
-<body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg nav-clr rounded-5 my-4">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Build</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0  menu-clr rounded-5 ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
-                        </li>
+<body >
 
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Agents</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Listings</a>
-                        </li>
+    <div class="preloader"></div>
 
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> <i
-                                    class="fa-solid fa-magnifying-glass"></i></a>
-                        </li>
-
-                    </ul>
-                    <div class="d-flex">
-
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 second-ul">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Other Services
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><button class="btn btn-light rounded-5 mx-3">Contact Us</button></li>
-                        </ul>
-
-
+    <section class="light-body">
+        <header> <br><br><br><br>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="logo-box"></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="color-change-btn-white">
+                            <i class="fa-regular fa-moon light"></i>
+                        </div>
+    
+                        <div class="language-change-btn">
+                            <p>EN</p>
+                        </div>
+    
+                        <div class="menu-btn">
+                            <p>Menu</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
-
-        <!--Header End-->
-
-        <div class="hero">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 ms-5 d-flex  align-items-center box-frst">
-                    <div class="container">
-                        <p class="my-5">Welcome to Realstate</p>
-                        <h1 class="my-5">Manage Your Property</h1>
-                        <p class="my-5">Your will have everything nearby supermarket, buses , station, the carmen
-                            neighborhood,
-                            etc</p>
-                        <div class="input-group mb-3 input-button">
-                            <input type="text" class="form-control rounded-start-pill" placeholder="Enter your email"
-                                aria-label="Recipient's username" aria-describedby="basic-addon2">
-                            <button type="button" class="btn btn-dark rounded-pill">Get a Quote</button>
-                        </div>
+        </header>
+    
+        <br> <br> <br> <br> <br> <br><br> <br>
+    
+    
+        <menu class="hidden">
+            <div class="menu-div-center">
+                <div class="menu-info-div">
+                    <div class="menu-icon-box"> <i class="fa-regular fa-address-card"></i></div>
+                    <div class="menu-text-box">
+                        <p>About</p>
+                    </div>
+    
+                </div>
+                <div class="menu-info-div">
+                    <div class="menu-icon-box"> <i class="fa-solid fa-clipboard-user"></i></div>
+                    <div class="menu-text-box">
+                        <p>Resume</p>
+                    </div>
+    
+                </div>
+                <div class="menu-info-div">
+    
+                    <div class="menu-icon-box"> <i class="fa-solid fa-briefcase"></i></div>
+                    <div class="menu-text-box">
+                        <p>Works</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 d-flex align-items-center position-relative box-two">
-                    <img src="../img/househero.svg" class="position-absolute">
+                
+    
+                <div class="menu-info-div">
+                    <div class="menu-icon-box"> <i class="fa-solid fa-address-book"></i></div>
+                    <div class="menu-text-box">
+                        <p>Blogs</p>
+                    </div>
+                </div>
+    
+                <div class="menu-info-div">
+                    <div class="menu-icon-box"> <i class="fa-solid fa-address-book"></i></div>
+                    <div class="menu-text-box">
+                        <p>Contacts</p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!--Hero End-->
-
-        <section class="services">
-            <p class="my-5 p-frst">Three steps. Three minutes.</p>
-            <h1 class="my-5 h-frst">Everything should be this easy.</h1>
-
-
-
-            <div class=" my-5 row">
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="card">
-                        <img src="../img/message.svg" class="card-img-1" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Answer question</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-
+        </menu>
+    
+    
+        <section class="my-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-4 col-xl-3">
+                        <div class="my-info-box">
+                            <div class="bostami-personal-info-wrap">
+                                <div class="personal-pp-photo-box"></div>
+                                <div class="personal-name-box">
+                                    <div class="name">
+                                        <p class="names"><b>Gulshan Mukhtar</b></p>
+                                    </div>
+                                    <div class="my-profession-background-box">
+                                        <div class="my-profession">
+                                            <p><b>Software Developer</b></p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-box">
+                                        <div class="contact-box-center">
+                                            <div class="social-contact-box"><a href="#"><i
+                                                        class="fa-brands fa-facebook-f"></i></a></div>
+                                            <div class="social-contact-box"><a href="#"><i
+                                                        class="fa-brands fa-twitter"></i></a></div>
+                                            <div class="social-contact-box instagram"><a href="#"><i
+                                                        class="fa-brands fa-instagram"></i></a></div>
+                                            <div class="social-contact-box"><a href="#"><i
+                                                        class="fa-brands fa-linkedin-in"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="my-full-info">
+                                    <div class="my-full-info-center">
+                                        <div class="phone-email-location">
+                                            <div class="phone-icon-box">
+                                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                            </div>
+    
+                                            <div class="info-contact-text">
+                                                <span class="phoneAndLocation">Phone</span>
+                                                <p>+123 456 7890</p>
+                                            </div>
+                                        </div>
+                                        <div class="phone-email-location">
+                                            <div class="email-icon-box">
+                                                <i class="fa-solid fa-envelope-open-text"></i>
+                                            </div>
+                                            <div class="info-contact-text">
+                                                <span>Email</span>
+                                                <p>Utopia1992@gmail.com</p>
+                                            </div>
+    
+                                        </div>
+                                        <div class="phone-email-location">
+                                            <div class="location-icon-box">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                            </div>
+                                            <div class="info-contact-text">
+                                                <span class="phoneAndLocation">Location</span>
+                                                <p class="phoneAndLocation">Baku, Azerbaijan</p>
+                                            </div>
+                                        </div>
+                                        <div class="phone-email-location-last">
+                                            <div class="date-icon-box">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                            </div>
+                                            <div class="info-contact-text">
+                                                <span class="phoneAndLocation">Birthay</span>
+                                                <p class="phoneAndLocation">Nov 12, 1992</p>
+                                            </div>
+    
+    
+                                        </div>
+    
+                                        <div class="button-center">
+                                            <Button class="phoneAndLocation"><i class="fa-solid fa-download"></i> Download
+                                                CV</Button>
+                                        </div>
+    
+    
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
                         </div>
                     </div>
-
-                </div>
-
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="card">
-                        <img src="../img/sms-tracking.svg" class="card-img-2" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Select a quote</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-
+                    <div class="col-xxl-8 col-xl-9">
+                        <div class="about-my-profession">
+                            <div class="about-my-profession-center-box">
+    
+                                <div class="center-center">
+                                    <div class="biography-this-person">
+                                        <h2 class="aboutMe">About <div class="div-line"></div>
+                                        </h2>
+                                        <br>
+                                        <p class="aboutMe">I'm a Software Developer working in web development from Baku,
+                                            Azerbaijan. I
+                                            enjoy
+                                            solving complex problems.
+    
+                                            <br> <br>My goal is to reveal your message and identity in the most creative
+                                            way. I
+                                            have
+                                            coded the websites of many famous brand companies.
+                                        </p>
+    
+                                    </div>
+                                    <br>
+    
+                                    <h3 class="aboutMe">What I DO?</h3>
+                                    <br>
+    
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-xxl-6 col-xl-6 col-lg-6">
+                                                <div class="left-side-box">
+                                                    <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+                                                    <div class="text">
+                                                        <h4>Software Developer</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                                            diam
+                                                            euismod tincidunt volutpat.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-xl-6 col-lg-6">
+                                                <div class="right-side-box">
+                                                    <div class="icon"><i class="fa-solid fa-qrcode"></i></div>
+                                                    <div class="text">
+                                                        <h4>App Development
+                                                        </h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                                            diam
+                                                            euismod tincidunt volutpat.</p>
+                                                    </div>
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+    
+                                    <br>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-xxl-6 col-xl-6 col-lg-6">
+                                                <div class="left-side-box-bottom">
+                                                    <div class="icon"><i class="fa-solid fa-camera-retro"></i></div>
+                                                    <div class="text">
+                                                        <h4>Photography</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                                            diam
+                                                            euismod tincidunt volutpat.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6 col-xl-6 col-lg-6">
+                                                <div class="right-side-box-bottom">
+                                                    <div class="icon"><i class="fa-solid fa-code"></i></div>
+                                                    <div class="text">
+                                                        <h4>Web Development</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                                            diam
+                                                            euismod tincidunt volutpat.</p>
+                                                    </div>
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <br>
+                                <div class="last-box">
+                                    <h3>Clinet</h3>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="img-div-1"></div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="img-div-2"></div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="img-div-3"></div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="img-div-4"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <footer>
+                                    <p>© 2024 All Rights Reserved by elite-themes24.
+                                    </p>
+                                </footer>
+    
+    
+                            </div>
+    
+    
                         </div>
+    
+    
+    
                     </div>
-
+    
                 </div>
-
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="card">
-                        <img src="../img/edit-2.svg" class="card-img-3" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Get registered</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-
-                        </div>
-                    </div>
-
-                </div>
-
-
+    
+            </div>
             </div>
         </section>
+    
+    
+    
+    </section>
+
+    
 
 
-        <section class="my-5 section-thrd">
-
-            <p>Best Project of the Years</p>
-
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-4 my-3">
-                    <div class="card-1">
-                       
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Sabha Hearlands II villas</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ab
-                            blanditiis perspiciatis repellendus debitis recusandae.</p>
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-regular fa-star"></i> <span>4.83</span>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-12 col-md-4 my-3">
-                    <div class="card-2">
-                        
-                    </div>
-
-                    <div class="card-body">
-                        <h5 class="card-title">Sabha Hearlands II villas</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum saepe
-                            dolores voluptatibus dicta incidunt nobis?</p>
-
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-regular fa-star"></i> <span>4.83</span>
-
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-12 col-md-4 my-3">
-                    <div class="card-3">
-                        
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Sabha Hearlands II villas</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                            consequatur facilis veritatis sequi adipisci pariatur.</p>
-
-                        <i class="fa-solid fa-star" class="i-1"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-regular fa-star"></i> <span>4.83</span>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-
-        <section class=" section-four">
-
-            <h1 class="p-2-p">We are a global, </h1>
-            <h1 class="p-2-p"> boutique real estate brokerage</h1> <br>
-
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6  the-transfer ">
-                    <h2>The transfer of real estate</h2>
-                    <div class="text">
-                        <p>Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin.
-                            Egestas
-                            faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus
-                            scelerisque
-                            vehicula ante nunc. Tellus consequat nisl quis nisl justo.</p>
-                    </div>
-
-                    <button type="button" class="btn btn-dark">Book Now!</button>
-                    <button type="button" class="btn btn-light">Read More</button>
-
-                    <div class="numbers">
-                        <div class="number-1"><img src="../img/12+.svg" alt=""> <b>Customers</b></div>
-                        <div class="number-2"><img src="../img/14+.svg" alt=""> <b> Offices</b></div>
-                        <div class="number-3"><img src="../img/10+.svg" alt=""> <b> Students</b></div>
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-sm-12 col-md-6  booklet-img-1">
-
-                    <div class="booklet-img"></div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <div class="my-5 hero-end">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 ms-5 d-flex  align-items-center box-thrd">
-                    <div class="container">
-
-                        <h1 my-4>Subscribe Our Newsletter</h1>
-                        <p my-4>Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque
-                            sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit
-                            adipiscing quisque tellus scelerisque vehicula ante nunc.</p>
-                        <div class="input-group mb-3 input-button">
-                            <input type="text" class="form-control rounded-start-pill" placeholder="Enter your email"
-                                aria-label="Recipient's username" aria-describedby="basic-addon2">
-                            <button type="button" class="btn btn-dark rounded-pill">Get a Quote</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 d-flex align-items-center position-relative box-four">
-                    <img class="last-house" src="../img/last-house.svg" class="position-absolute">
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
+    <script src="/project1/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
